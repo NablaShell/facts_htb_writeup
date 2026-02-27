@@ -14,7 +14,7 @@ This write-up details the exploitation of the **Facts** machine. The journey beg
 
 ---
 
-## 🛠 Kill Chain Summary
+## Kill Chain Summary
 
 ### 1. Reconnaissance & Initial Foothold (LFI)
 *   **Initial Access:** Fuzzing the web server revealed an `/admin` panel. Registering a new account disclosed the **Camaleon CMS v2.9.0** version.
