@@ -6,7 +6,7 @@
 ![Category](https://img.shields.io/badge/Category-Web%20%7C%20PrivEsc-blue)
 ![OS](https://img.shields.io/badge/OS-Linux-lightgrey)
 
-**Author:** CerberusSolution
+**Author:** NablaShell
 **Date:** 2026-02-15
 **Platform:** Hack The Box
 
@@ -36,7 +36,7 @@ This write-up details the exploitation of the **Facts** machine. The journey beg
 
 ---
 
-## 🕵️ Detailed Walkthrough
+##  Detailed Walkthrough
 
 ### Step 1: Initial Enumeration
 
@@ -99,7 +99,7 @@ I found a public Proof-of-Concept (PoC) for CVE-2024-46987, which allows an auth
 
 ```bash
 # Download the exploit and run it
-python3 CVE-2024-46987.py -u http://facts.htb -l 12341234 -p 12341234 /etc/passwd
+python3 CVE-2025-2304_Exploit.py -u http://facts.htb -l 12341234 -p 12341234 /etc/passwd
 ```
 ![Image alt](assets/passwd.png)
 The output confirmed two non-standard users:
